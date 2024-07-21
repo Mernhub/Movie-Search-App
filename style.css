@@ -1,0 +1,145 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+font-family: "Lato", sans-serif;
+box-sizing: border-box;
+}
+body{
+    background: rgb(138, 131, 131);
+}
+.container{
+    padding: 20px;
+    width: 360px;
+    background-color: black;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: rgb(138, 131, 131) 0px 48px 100px 0px;
+}
+.container .search-input{
+    height: 50px;
+    width: 100%;
+    border: 1px solid rgb(74, 108, 113);
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    margin-top: 5px;
+    padding: 20px;
+}
+.container .search-input i{
+    color:rgb(74, 108, 113) ;
+    margin-left: 15px;
+    font-size: 15px;
+}
+.search-input input{
+    all: unset;
+    height: 45px;
+    width: 250px;
+    margin-left: 10px;
+    color: white;
+    font-size: 14px;
+}
+
+.container .movie-result{
+    padding: 1px;
+    margin-top: 10px;
+}
+.container .movie-result .movie-img{
+    height: 180px;
+    width: 130px;
+    border-radius: 5px;
+    margin: auto;
+    left: 5px;
+    margin-top: 13px;
+}
+.container .movie-result .movie-img img{
+    height: 180px;
+    width: 130px;
+    border-radius: 5px;
+}
+.container .movie-result .movie-title{
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 5px;
+}
+.container .movie-result .movie-rating{
+    font-size: 11px;
+    height: 10px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin: auto;
+    margin-top: 10px;
+}
+.container .movie-result .movie-rating i{
+    padding-right: 5px;
+    font-size: 14px;
+    color: goldenrod;
+}
+.container .movie-result .details{
+    font-size: 15px;
+    color: grey;
+    margin-top: 8px;
+    text-align: center;
+}
+.container .movie-result .genre{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    margin-top: 8px;
+}
+.container .movie-result .genre div{
+    border: 1px solid grey;
+    font-size: .7em;
+    padding:0.2em 1.6em;
+    border-radius: 0.4em;
+    font-weight: 300;
+    color: white;
+    transition: all .2s;
+    cursor: pointer;
+}
+.container .movie-result .genre div:hover{
+    background: green;
+    border-color: green;
+    transition: all .3s;
+}
+.container .movie-result .plot{
+    margin-top: 25px;
+}
+.container .movie-result .cast{
+    margin-top: 8px;
+}
+.container .movie-result .plot h2,.container .movie-result .cast h2{
+    font-size: 17px;
+    color: white;
+}
+.container .movie-result .plot span,.container .movie-result .cast span{
+    font-size: 13px;
+    color: grey;
+}
+.container .movie-result .message{
+    text-align: center;
+    color: white;
+    margin-top: 15px;
+    font-size: 17px;
+}
+
+
+
+
+
+
+
+
+
+
